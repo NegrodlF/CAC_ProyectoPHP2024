@@ -1,9 +1,9 @@
-/*variable global*/
 :root{   
     --color-primario:#007bff; /*color de fondo*/
     --font-size-base:22px;
     font-size: 20px;
 }
+
 *{
     margin: 0;
     padding: 0;
@@ -29,12 +29,12 @@
    
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: var(--color-primario);
+    background: var(--color-primario);/*9f3647*/
 }
   
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-    background:var(--color-primario);
+    background: var(--color-primario);/*9f3647*/
 }
 body{
     background-color: #181419;
@@ -45,7 +45,7 @@ body{
 
 /*ESTILOS HEADER PARA ESCRITORIO*/
 .header{
-    background-color:var(--color-primario);
+    background-color: var(--color-primario);/*9f3647*/
     color:#ffffff;
     height: 10vh;
     position:sticky;
@@ -96,7 +96,7 @@ body{
                      /* Agregar efecto de botón presionado */
                      transition: transform 0.3s, box-shadow 0.3s;
                      &:hover {
-                         background-color: var(--color-primario);
+                         background-color: var(--color-primario);/*9f3647*/
                         /* transform: scale(0.95);
                          box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);*/
                      }
@@ -162,7 +162,7 @@ body{
             margin-bottom: 1rem;
         }
         .botonRegistrarse{
-            background-color: var(--color-primario);
+            background-color: var(--color-primario);/*9f3647*/
             color: #ffffff;
             padding: 1rem 2rem;
             border-radius: 5px;
@@ -172,7 +172,7 @@ body{
              /* Agregar efecto de botón presionado */
              transition: transform 0.3s, box-shadow 0.3s;
              &:hover {
-                 background-color: var(--color-primario);
+                 background-color: var(--color-primario);/*9f3647*/
                  transform: scale(0.95);
                  box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
              }
@@ -209,7 +209,7 @@ body{
                 width: 500px;
             }
             .botonBuscador{
-                background-color: var(--color-primario);
+                background-color: var(--color-primario);/*9f3647*/
                 display: inline-block;
                 color:#ffffff;
                 height: 50px;
@@ -223,7 +223,7 @@ body{
                  /* Agregar efecto de botón presionado */
                  transition: transform 0.3s, box-shadow 0.3s;
                  &:hover {
-                     background-color: var(--color-primario);
+                     background-color: var(--color-primario);/*9f3647*/
                      transform: scale(0.95);
                      box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
                  }
@@ -312,7 +312,7 @@ body{
             box-sizing: content-box;
             margin-top:50px;
             margin-left:20px;
-            background-color: var(--color-primario);
+            background-color: var(--color-primario);/*9f3647*/
             color: #ffffff;
             padding: 1rem 1rem;
             border-radius: 5px;
@@ -323,7 +323,7 @@ body{
              /* Agregar efecto de botón presionado */
              transition: transform 0.3s, box-shadow 0.3s;
              &:hover {
-                 background-color: var(--color-primario);
+                 background-color: var(--color-primario);/*9f3647*/
                  transform: scale(0.95);
                  box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
              }
@@ -466,7 +466,7 @@ body{
 
 /*ESTILOS ESCRITORIO FOOTER*/
 .footer{
-    background-color: var(--color-primario);
+    background-color: var(--color-primario);/*9f3647*/
     color:#ffffff;
     height: 15vh;
     display: flex;
@@ -577,7 +577,7 @@ body{
                     padding: 0px 20px;
                     font-size: 1.2rem;
                     border-radius: 20px;
-                    border: 2px solid --color-primario;
+                    border: 2px solid var(--color-primario);/*9f3647*/
                     background-color: #333333;
                     outline: none;
                     color:white;
@@ -594,8 +594,8 @@ body{
                 .boton{
                     width: 87%;
                     box-sizing: content-box;
-                    background-color: var(--color-primario);
-                    border: 2px solid --color-primario;
+                    background-color: var(--color-primario);/*9f3647*/
+                    border: 2px solid var(--color-primario);/*9f3647*/
                     color: #ffffff;
                     padding: 1rem 1rem;
                     border-radius: 5px;
@@ -822,7 +822,7 @@ body{
 }
 
 hr{
-    border: 1px solid --color-primario;
+    border: 1px solid var(--color-primario);/*9f3647*/
     width: 80%;
     margin: 0 auto;
     margin-top: 40px;
